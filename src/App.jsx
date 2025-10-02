@@ -16,7 +16,7 @@ function App() {
     <>
     <Router>
       <nav className="c-menu">
-          <Link to="/home">Home</Link>
+          <Link to="/">Home</Link>
           <Link to="/informativa">Informativa</Link>
           <Link to="/mapa">Mapa</Link>
           <Link to="/favorito">Favoritos</Link>
@@ -26,7 +26,7 @@ function App() {
 
 
       <Routes>
-          <Route path="/home " element={<Home /> } />
+          <Route path="/" element={<Home /> } />
           <Route path="/informativa" element={<Informativa /> } />
           <Route path="/mapa" element={<Mapa /> } />
           <Route path="/favorito" element={<Favorito /> } />
